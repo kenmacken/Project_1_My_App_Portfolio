@@ -40,26 +40,32 @@ public class MainActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
+    /*This is used in the launch of the Spotify Streaming App*/
     public void spotifyStreamerApp(View view) {
         Toast.makeText(this, toastTextForBtn + "Spotify Streamer app!", Toast.LENGTH_LONG).show();
     }
 
+    /*This is used in the launch of the Scores App*/
     public void scoresApp(View view) {
         Toast.makeText(this, toastTextForBtn + "Scores app!", Toast.LENGTH_LONG).show();
     }
 
+    /*This is used in the launch of the Library App*/
     public void libraryApp(View view) {
         Toast.makeText(this, toastTextForBtn + "Library app!", Toast.LENGTH_LONG).show();
     }
 
+    /*This is used in the launch of the Build it Bigger App*/
     public void buildItBiggerApp(View view) {
         Toast.makeText(this, toastTextForBtn + "Build It Bigger app!", Toast.LENGTH_LONG).show();
     }
 
+    /*This is used in the launch of the XYZ Reader App*/
     public void xyzReaderApp(View view) {
         Toast.makeText(this, toastTextForBtn + "XYZ Reader app!", Toast.LENGTH_LONG).show();
     }
 
+    /*This is used in the launch of the Capstone - My App*/
     public void capstoneApp(View view) {
         Toast.makeText(this, toastTextForBtn + "capstone app!", Toast.LENGTH_LONG).show();
     }
